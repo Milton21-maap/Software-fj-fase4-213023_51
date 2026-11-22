@@ -29,4 +29,4 @@ Al finalizar, el sistema genera automáticamente el archivo eventos_software_fj.
 
 * Milton (@Milton21-maap)
 * Carlos Josué Ortiz (@carlosjosueortiz97-beep)
-* Aquí su nombre (manbebe100)
+* John Mendez Rangel (manbebe100)
