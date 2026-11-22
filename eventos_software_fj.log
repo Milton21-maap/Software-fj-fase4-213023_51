@@ -1,0 +1,40 @@
+[2026-11-20 15:59:08] [INFO] [SISTEMA] === INICIO DE SIMULACIÓN SOFTWARE FJ ===
+[2026-11-20 15:59:08] [INFO] [CLIENTES] Cliente registrado: Cliente [CLI-001] - Ana Martínez | Correo: ana.martinez@correo.com
+[2026-11-20 15:59:08] [INFO] [CLIENTES] Cliente registrado: Cliente [CLI-002] - Carlos Gómez | Correo: carlos.gomez@empresa.co
+[2026-11-20 15:59:08] [ERROR] [CLIENTES] Fallo al registrar cliente: [ERR-DATO-001] El correo 'pedro_sin_arroba.com' no tiene un formato válido.
+[2026-11-20 15:59:08] [ERROR] [CLIENTES] Fallo al registrar cliente: [ERR-DATO-001] El teléfono '300ABC99' debe contener únicamente números.
+[2026-11-20 15:59:08] [INFO] [SERVICIOS] Servicio creado: Sala 'Sala Innovación' | Capacidad: 25 pers. | Duración: 4h
+[2026-11-20 15:59:08] [INFO] [SERVICIOS] Servicio creado: Alquiler 'Workstation Dell Precision' | Equipos: 3 | Días: 2
+[2026-11-20 15:59:08] [INFO] [SERVICIOS] Servicio creado: Asesoría 'Arquitectura Cloud' | Nivel: AVANZADO | Horas: 5
+[2026-11-20 15:59:08] [ERROR] [SERVICIOS] Error creando sala: [ERR-DATO-001] La tarifa base del servicio debe ser mayor a cero.
+[2026-11-20 15:59:08] [ERROR] [SERVICIOS] Error creando asesoría: [ERR-DATO-001] Nivel de asesoría 'EXPERTO_SUPREMO' inválido. Use: ['BASICO', 'INTERMEDIO', 'AVANZADO']
+[2026-11-20 15:59:08] [INFO] [COSTOS] Costos Sala -> Estándar: $437,920.00 | Con 10% desc.: $394,128.00 | Con cargo extra: $419,128.00
+[2026-11-20 15:59:08] [INFO] [RESERVAS] Reserva procesada: Reserva [RES-001] | Cliente: Ana Martínez | Servicio: Sala Innovación | Duración: 4 | Estado: PROCESADA | Total: $416,024.00
+[2026-11-20 15:59:08] [ERROR] [RESERVAS] Reserva rechazada: [ERR-SERV-005] El servicio 'Sala Innovación' (SRV-01) no está disponible.
+[2026-11-20 15:59:08] [ERROR] [RESERVAS] Parámetros inválidos en reserva: [ERR-RES-004] La duración de la reserva debe ser mayor a cero.
+[2026-11-20 15:59:08] [ERROR] [RESERVAS] Error de cálculo encadenado: [ERR-RES-004] Fallo al procesar el cobro de la reserva RES-004. | Causa: [ERR-CALC-006] El descuento debe ser mayor o igual a 0 y menor al 100%.
+[2026-11-20 15:59:08] [INFO] [RESERVAS] Reserva cancelada correctamente: Reserva [RES-004] | Cliente: Carlos Gómez | Servicio: Workstation Dell Precision | Duración: 2 | Estado: CANCELADA | Total: $0.00
+[2026-11-20 15:59:08] [ERROR] [RESERVAS] Operación bloqueada: [ERR-OPER-003] No es posible cancelar la reserva RES-001 porque ya fue PROCESADA.
+[2026-11-20 15:59:08] [INFO] [SISTEMA] === FIN DE SIMULACIÓN SOFTWARE FJ (SISTEMA ESTABLE) ===
+[2026-11-22 18:13:44] [INFO] [SISTEMA] === INICIO DE SIMULACIÓN SOFTWARE FJ ===
+[2026-11-22 18:13:44] [INFO] [MODELO_CLIENTE] Instancia creada: Cliente [CLI-001] - Ana Martínez | Correo: ana.martinez@correo.com
+[2026-11-22 18:13:44] [INFO] [CLIENTES] Cliente registrado: Cliente [CLI-001] - Ana Martínez | Correo: ana.martinez@correo.com
+[2026-11-22 18:13:44] [INFO] [MODELO_CLIENTE] Instancia creada: Cliente [CLI-002] - Carlos Gómez | Correo: carlos.gomez@empresa.co
+[2026-11-22 18:13:44] [INFO] [CLIENTES] Cliente registrado: Cliente [CLI-002] - Carlos Gómez | Correo: carlos.gomez@empresa.co
+[2026-11-22 18:13:44] [ERROR] [MODELO_CLIENTE] [ERR-DATO-001] El correo 'pedro_sin_arroba.com' no tiene un formato válido.
+[2026-11-22 18:13:44] [ERROR] [CLIENTES] Fallo al registrar cliente: [ERR-DATO-001] El correo 'pedro_sin_arroba.com' no tiene un formato válido.
+[2026-11-22 18:13:44] [ERROR] [MODELO_CLIENTE] [ERR-DATO-001] El teléfono '300ABC99' debe contener únicamente números.
+[2026-11-22 18:13:44] [ERROR] [CLIENTES] Fallo al registrar cliente: [ERR-DATO-001] El teléfono '300ABC99' debe contener únicamente números.
+[2026-11-22 18:13:44] [INFO] [SERVICIOS] Servicio creado: Sala 'Sala Innovación' | Capacidad: 25 pers. | Duración: 4h
+[2026-11-22 18:13:44] [INFO] [SERVICIOS] Servicio creado: Alquiler 'Workstation Dell Precision' | Equipos: 3 | Días: 2
+[2026-11-22 18:13:44] [INFO] [SERVICIOS] Servicio creado: Asesoría 'Arquitectura Cloud' | Nivel: AVANZADO | Horas: 5
+[2026-11-22 18:13:44] [ERROR] [SERVICIOS] Error creando sala: [ERR-DATO-001] La tarifa base del servicio debe ser mayor a cero.
+[2026-11-22 18:13:44] [ERROR] [SERVICIOS] Error creando asesoría: [ERR-DATO-001] Nivel de asesoría 'EXPERTO_SUPREMO' inválido. Use: ['BASICO', 'INTERMEDIO', 'AVANZADO']
+[2026-11-22 18:13:44] [INFO] [COSTOS] Costos Sala -> Estándar: $437,920.00 | Con 10% desc.: $394,128.00 | Con cargo extra: $419,128.00
+[2026-11-22 18:13:44] [INFO] [RESERVAS] Reserva procesada: Reserva [RES-001] | Cliente: Ana Martínez | Servicio: Sala Innovación | Duración: 4 | Estado: PROCESADA | Total: $416,024.00
+[2026-11-22 18:13:44] [ERROR] [RESERVAS] Reserva rechazada: [ERR-SERV-005] El servicio 'Sala Innovación' (SRV-01) no está disponible.
+[2026-11-22 18:13:44] [ERROR] [RESERVAS] Parámetros inválidos en reserva: [ERR-RES-004] La duración de la reserva debe ser mayor a cero.
+[2026-11-22 18:13:44] [ERROR] [RESERVAS] Error de cálculo encadenado: [ERR-RES-004] Fallo al procesar el cobro de la reserva RES-004. | Causa: [ERR-CALC-006] El descuento debe ser mayor o igual a 0 y menor al 100%.
+[2026-11-22 18:13:44] [INFO] [RESERVAS] Reserva cancelada correctamente: Reserva [RES-004] | Cliente: Carlos Gómez | Servicio: Workstation Dell Precision | Duración: 2 | Estado: CANCELADA | Total: $0.00
+[2026-11-22 18:13:44] [ERROR] [RESERVAS] Operación bloqueada: [ERR-OPER-003] No es posible cancelar la reserva RES-001 porque ya fue PROCESADA.
+[2026-11-22 18:13:44] [INFO] [SISTEMA] === FIN DE SIMULACIÓN SOFTWARE FJ (SISTEMA ESTABLE) ===
