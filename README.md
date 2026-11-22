@@ -27,6 +27,6 @@ Al finalizar, el sistema genera automáticamente el archivo eventos_software_fj.
 
 ## Integrantes Participantes
 
-* Milton (@Milton21-maap)
+* Milton Arturo Acosta Palomino (@Milton21-maap)
 * Carlos Josué Ortiz (@carlosjosueortiz97-beep)
 * John Mendez Rangel (manbebe100)
